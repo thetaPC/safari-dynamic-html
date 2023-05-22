@@ -22,3 +22,7 @@ The element is styled according to the initial value of the `dir` attribute of t
 ## Other information
 
 This works as expected in Chrome and Firefox. The bug is present in Safari 16.4+. I have not tested older versions.
+
+## Webkit bug report
+
+[Bug 257133](https://bugs.webkit.org/show_bug.cgi?id=257133)

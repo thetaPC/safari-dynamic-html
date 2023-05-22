@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Popover - Nested</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <script>
+      document.documentElement.setAttribute('dir', 'rtl');
+    </script>
+  </head>
+  <style>
+    p {
+      color: white;
+    }
+    
+    p:dir(rtl) {
+      background-color: red;
+    }
+
+    p:dir(ltr) {
+      background-color: blue;
+    }
+  </style>
+  <body>
+    <p>hi</p>
+  </body>
+</html>
